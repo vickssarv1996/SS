@@ -573,6 +573,7 @@ a:active {
     cursor: -moz-default;
     cursor: -webkit-default;
 }
+
 .carousel .owl-dots {
     margin-top: -30px;
 }
@@ -2475,6 +2476,7 @@ input.submit:hover {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     overflow: hidden;
+    height:200px;
 }
 .blog-grid-content {
     position: relative;

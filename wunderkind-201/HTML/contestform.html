@@ -86,7 +86,7 @@
                     <div class="col-md-8 col-md-offset-2 contact box-style">
 
                         <!-- Forms can be functional only on server. Upload to your server when testing. -->
-                        <form id="contactform" method="post">
+                        <form method="post" action="contestaction.php" enctype="multipart/form-data">
                            <div id="message-info">Select the movie</div>
                            <div class="col-sm-6">
 
@@ -109,8 +109,8 @@
                                 <input name="phone" id="phone" required placeholder="Your Phone"/>
                             </div>
                             <div class="col-sm-12">
-                              <input type="file" id="files" required class="hidden"/>
-                              <label for="files" class="btn">Select file</label>
+                              <input type="file" name="file"/>
+
 
                             </div>
 <div class="col-sm-12">

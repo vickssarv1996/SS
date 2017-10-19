@@ -13,6 +13,20 @@
         <link href="css/colors/purple.css" rel="stylesheet" type="text/css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700%7CRaleway:400,100,200,300%7CHind:400,300" rel="stylesheet" type="text/css">
+        <style>
+        .circle_green
+{
+  display: inline-block;
+    border: 2px solid #a1a1a1;
+    padding: 10px 11px;
+    background: black;
+    width: 2px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1%;
+}
+        </style>
     </head>
     <body data-fade-in="true">
 
@@ -37,17 +51,17 @@
                       <ul class="nav navbar-nav menu-right">
 
                           <!-- Each section must have corresponding ID ( #hero -> id="hero" ) -->
-                          <li><a href="index.html#hero">Home</a></li>
+                          <li><a href="index.php#hero">Home</a></li>
 
-                                  <li><a href="index.html#trailers">Trailers</a></li>
-                                  <li><a href="index.html#posts">Posts</a></li>
+                                  <li><a href="index.php#trailers">Trailers</a></li>
+                                  <li><a href="index.php#posts">Posts</a></li>
 
 
-                          <li><a href="index.html#movies">Movies</a></li>
-                          <li><a href="index.html#merchandise">Merchandise</a></li>
+                          <li><a href="index.php#movies">Movies</a></li>
+                          <li><a href="index.php#merchandise">Merchandise</a></li>
                           <li><a href="blog-grid.html">Blog</a></li>
-                          <li><a href="index.html#about">About Us</a></li>
-                          <li><a href="index.html#contact">Contact</a></li>
+                          <li><a href="index.php#about">About Us</a></li>
+                          <li><a href="index.php#contact">Contact</a></li>
 
                           <li class="nav-separator"></li>
                           <li  class="nav-icon"><a href="http://facebook.com" target="_blank"><i class="ion-social-facebook"></i></a></li>
@@ -74,9 +88,8 @@
 
                     <div class="col-md-8 mt20 mb40">
                         <div class="carousel lightbox" data-autoplay="false" data-speed="4000" data-touch-drag="true" data-loop="false">
-                            <div><a href="img/portfolio/1.jpg"><img src="img/portfolio/1.jpg" class="img-responsive width100" alt="#"></a></div>
-                            <div><a href="img/portfolio/2.jpg"><img src="img/portfolio/2.jpg" class="img-responsive width100" alt="#"></a></div>
-                            <div><a href="img/portfolio/3.jpg"><img src="img/portfolio/3.jpg" class="img-responsive width100" alt="#"></a></div>
+                            <div><a href="img/portfolio/1.jpg"><img src="img/team/tshirt1.jpg" class="img-responsive width100" alt="#"></a></div>
+
                         </div>
                     </div>
 
@@ -90,27 +103,37 @@
 
                         <div class="project-info">
                             <div>
-                                <p>Colour</p>
-                                <p>Black</p>
+                                <p>Colour:
+                                <div class="circle_green">
+               </div></p>
                             </div>
+                            <br>
                             <div>
                                 <p>Cost</p>
-                                <p>Rs. 500</p>
+                                <p>Rs. 250</p>
                             </div>
 
+                        </div>
+
+
+                        <div>
+                        <p>Description </p>
+                        Printed Tees
                         </div>
 
                         <div class="btn">
-                          <a href="payment.html">Click to Pay</a>
+                          <a href="payment.html">Click to Buy</a>
 
                         </div>
+
+<!-- cart option
                         <div class="btn">
 
                           <i class="fa fa-shopping-cart" style="font-size:22px;" aria-hidden="true"></i>
                         </div>
 
 
-
+-->
 
 
                         <div class="sidebar-share">
@@ -130,17 +153,17 @@
             </div>
         </section>
         <!-- End Project -->
-
+<!-- prev and next
         <section class="project-nav">
           <a href="project-slides4.html" style="align:left;"><i class="ion-android-arrow-back"></i><h5><strong>Previous</strong></h5></a>
 
             <a href="project-slides2.html" style="align:right;"><h5><strong>Next</strong></h5><i class="ion-android-arrow-forward"></i></a>
         </section>
-
+-->
         <!-- Start Footer -->
         <footer id="footer" class="footer style-1 dark">
 
-            <a href="index.html"><img src="img/assets/foot.jpg" alt="#" class="mr-auto img-responsive"></a>
+            <a href="index.php"><img src="img/assets/foot.jpg" alt="#" class="mr-auto img-responsive"></a>
             <ul>
                 <li><a href="https://www.twitter.com/" target="_blank" class="color"><i class="ion-social-twitter"></i></a></li>
                 <li><a href="https://www.facebook.com/" target="_blank" class="color"><i class="ion-social-facebook"></i></a></li>

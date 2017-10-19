@@ -3,7 +3,7 @@
 if(!$_POST) exit;
 
 // Email address that messages will be sent to;
-$address = "vossendesign@gmail.com";
+$address = "vickssarv1996@gmail.com";
 
 // Email address verification, do not edit.
 function isEmail($email) {
@@ -13,7 +13,7 @@ function isEmail($email) {
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $name       = $_POST['name'];
-$email      = $_POST['email']; 
+$email      = $_POST['email'];
 $message    = $_POST['message'];
 $phone      = $_POST['phone'];
 $verify     = $_POST['verify'];
